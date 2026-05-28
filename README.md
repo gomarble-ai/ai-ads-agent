@@ -78,6 +78,66 @@ For the full install guide, slash-command reference, and skill list, see the can
 
 ---
 
+## 📦 Skills shipped (36)
+
+### 🎯 Google Ads (17)
+
+| Type | Skill | What it does |
+|---|---|---|
+| 🏗️ Foundations | `google-ads-tool-fundamentals` | Tool-call patterns, GAQL basics, account structure |
+| 🏗️ Foundations | `google-ads-guardrails` | Mutation safety, attribution rules, what never to fabricate |
+| 🔍 Analysis | `google-ads-search-analysis` | Q1–Q5 query classification, CPC inflation diagnostics |
+| 🔍 Analysis | `google-ads-shopping` | Shopping / Merchant Center performance audits |
+| 🔍 Analysis | `google-ads-pmax-evaluation` | PMax 3d-vs-3d anomaly detection |
+| 🔍 Analysis | `google-ads-pmax-scaling` | PMax scaling decisions, disciplined against overcorrection |
+| 🔍 Analysis | `google-ads-keywordplanner` | Keyword discovery without fabrication |
+| 🔍 Analysis | `google-ads-depth-of-analysis` | Multi-layer drill-down methodology |
+| ⚡ Execution | `google-ads-search-execution` | Bid / budget / structure changes (gated on profitability) |
+| 🚀 Creation | `google-ads-create-master-skill` | Master orchestrator for new campaign builds |
+| 🚀 Creation | `google-ads-create-campaign` | Campaign-level setup |
+| 🚀 Creation | `google-ads-create-ad-group` | Ad-group creation |
+| 🚀 Creation | `google-ads-create-ad` | Ad-level creation |
+| 🚀 Creation | `google-ads-create-asset` | Asset uploads |
+| 🚀 Creation | `google-ads-create-experiment` | Experiment / draft setup |
+| 🚀 Creation | `google-ads-create-negative-keyword-list` | Negative-keyword list management |
+| 🚀 Creation | `google-ads-create-bid-modifiers` | Bid-modifier setup |
+
+### 📊 Meta — Facebook + Instagram (10)
+
+| Type | Skill | What it does |
+|---|---|---|
+| 🏗️ Foundations | `meta-tool-fundamentals` | Tool-call patterns, account / campaign / ad-set / ad taxonomy |
+| 🏗️ Foundations | `meta-guardrails` | Mutation safety, attribution discipline |
+| 🔍 Analysis | `meta-performance-analysis` | Account-level performance audits |
+| 🔍 Analysis | `meta-creative-analysis` | Creative-fatigue scoring (Healthy / Warning / Fatigued / Dead) |
+| 🔍 Analysis | `meta-depth-of-analysis` | Multi-layer drill-down for Meta accounts |
+| ⚙️ Operations | `meta-agent-operations` | Agentic-loop patterns for Meta workflows |
+| 🚀 Creation | `meta-create-master-skill` | Master orchestrator for new Meta campaign builds |
+| 🚀 Creation | `meta-create-campaign` | Campaign-level setup |
+| 🚀 Creation | `meta-create-adset` | Ad-set setup |
+| 🚀 Creation | `meta-create-ad-with-creative` | Ad + creative pairing |
+
+### 📈 Other platforms (4)
+
+| Platform | Skill | What it does |
+|---|---|---|
+| 📊 GA4 | `ga4-source-of-truth` | Conversions ≠ transactions, channel-subset-sum traps, attribution discipline |
+| 🛍️ Shopify | `shopify-order-discipline` | No `financial_status` filter, gross-vs-net, refunds, multi-currency |
+| 🔎 Search Console | `search-console-master-skill` | Organic search analysis + opportunity scoring |
+| 🎨 Creative | `creative-research` | Competitor research, evergreen + breakout winners, pattern analysis |
+
+### 📄 Document generation (5)
+
+| Format | Skill | What it does |
+|---|---|---|
+| 📝 DOCX | `documents-docx-skill` | Word document generation |
+| 🎯 PPTX | `documents-pptx-skill` | PowerPoint deck generation |
+| 📑 PDF | `documents-pdf-skill` | PDF report generation |
+| 📊 XLSX | `documents-xlsx-skill` | Excel spreadsheet generation |
+| 🐍 Python | `python-sandbox-skill` | Foundation for all document generation |
+
+---
+
 ## Aliases (same product)
 
 This package is one of several brand entry-points for the same underlying AI ads agent — each tuned to how different users search:
