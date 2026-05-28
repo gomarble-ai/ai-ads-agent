@@ -1,0 +1,75 @@
+{
+  "name": "ai-ads-agent",
+  "version": "0.1.1",
+  "description": "AI Ads Agent — the senior AI ads agent for Claude Code & Codex CLI. Audit, optimize, and launch paid-media campaigns across Google Ads, Meta (Facebook/Instagram), TikTok, LinkedIn, Bing Ads, GA4, Shopify, Klaviyo, and Search Console — via natural language. 36 expert-authored AI ads playbooks, 8 morning-workflow slash commands, OAuth-secured live data. Powered by AI Ads OS, built by GoMarble — the AI ads team for performance marketers.",
+  "type": "module",
+  "bin": {
+    "ai-ads-agent": "bin/install.mjs"
+  },
+  "files": [
+    "assets/",
+    "bin/",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "ai-ads-agent",
+    "ai-ads",
+    "ai-ads-os",
+    "ai-ads-tool",
+    "ai-marketing",
+    "ai-marketing-agent",
+    "ai-advertising",
+    "ad-agent",
+    "ads-agent",
+    "marketing-agent",
+    "marketing",
+    "advertising",
+    "ads",
+    "paid-media",
+    "performance-marketing",
+    "growth-marketing",
+    "media-buying",
+    "ads-automation",
+    "marketing-automation",
+    "ad-optimization",
+    "campaign-management",
+    "creative-analytics",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-plugin",
+    "codex",
+    "codex-plugin",
+    "mcp",
+    "mcp-server",
+    "google-ads",
+    "meta-ads",
+    "facebook-ads",
+    "instagram-ads",
+    "tiktok-ads",
+    "linkedin-ads",
+    "bing-ads",
+    "ga4",
+    "shopify",
+    "klaviyo",
+    "search-console",
+    "seo",
+    "gomarble"
+  ],
+  "author": {
+    "name": "GoMarble",
+    "url": "https://gomarble.ai"
+  },
+  "homepage": "https://gomarble.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomarble-ai/ai-ads-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gomarble-ai/ai-ads-agent/issues"
+  },
+  "license": "MIT"
+}
